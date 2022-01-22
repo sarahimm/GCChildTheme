@@ -22,7 +22,7 @@ Tags:
         width: auto;
     }
     #site-header {
-        backdrop-filter: blur(1px);
+        /*backdrop-filter: blur(1px);*/
         background: linear-gradient(180deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.2) 60%, rgba(255,255,255,0) 100%);
         padding: 5px 0;
     }
