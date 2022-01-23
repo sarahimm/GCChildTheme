@@ -3,7 +3,7 @@ Theme Name: Global Citizens Custom Theme
 Description: A child of the Hello theme by Elementor. Custom made for the Global Citizens Grant Program.
 Author: Sarah Immel, Erin Bell, and Angel Ainembabazi
 Template: hello-elementor
-Version: 1.0.2
+Version: 1.0.3
 Tags:
 */
 
@@ -12,7 +12,11 @@ Tags:
 /* Header Styling */
     #site-header {
         position: sticky;
+        top: 0;
         z-index: 9999;
+    }
+    .admin-bar #site-header {
+        top: 28px;
     }
     #site-header.site-header .header-inner {
         max-width: 2000px;
@@ -24,7 +28,7 @@ Tags:
     }
     #site-header {
         backdrop-filter: blur(1px);
-        background: linear-gradient(180deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.2) 60%, rgba(255,255,255,0) 100%);
+        background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.35) 55%, rgba(255,255,255,0) 100%);
         padding: 5px 0;
     }
 
@@ -52,6 +56,10 @@ Tags:
             background-position: center center;
             padding: 0 20px;
         }
+        #site-header .menu-main-nav-container #menu-main-nav li a:hover,
+        #site-header .menu-main-nav-container #menu-main-nav li a:active {
+            color: #44C1BE;
+        }   
 
 
 
