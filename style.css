@@ -12,6 +12,7 @@ Tags:
 /* Header Styling */
     #site-header {
         position: sticky;
+        z-index: 9999;
     }
     #site-header.site-header .header-inner {
         max-width: 2000px;
