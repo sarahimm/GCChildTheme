@@ -23,7 +23,7 @@ function hello_elementor_child_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts');
 
 /* Superheader */
-add_action('wp_head', 'kcp_superheader');
+add_action('wp_head', 'kcp_superheader',1);
 function kcp_superheader(){
 ?>
 	<div id="kcp_superheader">
