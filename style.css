@@ -3,7 +3,7 @@ Theme Name: Global Citizens Custom Theme
 Description: A child of the Hello theme by Elementor. Custom made for the Global Citizens Grant Program.
 Author: Sarah Immel, Erin Bell, and Angel Ainembabazi
 Template: hello-elementor
-Version: 1.0.3
+Version: 1.0.4
 Tags:
 */
 
@@ -48,7 +48,7 @@ Tags:
             width: 100%;
             text-align: center;
         }
-    /*"Apply" Button */
+    /* "Apply" Button */
         #site-header .menu-main-nav-container #menu-main-nav #menu-item-33 {
             background-image: url(http://35.85.213.9/wp-content/uploads/2022/01/Group-1828.svg);
             background-size: contain;
@@ -90,6 +90,65 @@ Tags:
 
     #kcp_superheader .links a:hover {
         border: 1px solid #fbf7f4;
+    }
+
+/* Footer Styling */
+    #kcp-footer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #4f4936;
+    }
+
+    #site-footer {
+        display: none;
+    }
+
+    #kcp-footer .col {
+        flex-shrink: 0;
+        flex-grow: .1;
+        padding: 20px;
+    }
+
+    #kcp-footer ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #kcp-footer .col ul li,
+    #kcp-footer .col ul li a {
+        color: #fbf7f4;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+    }
+
+    #kcp-footer .col ul li a:hover {
+        color: #44c1be;
+    }
+
+    #kcp-footer h2 {
+        font-family: "Playfair Display", sans-serif;
+        font-size: 24px;
+        color: #fbf7f4;
+
+    }
+
+/*Superfooter Styling */
+    #kcp-superfooter {
+        background-color: #44c1be;
+        margin: 0;
+        padding: 3px 10px;
+    }
+    #kcp-superfooter p {
+        margin: 0;
+        text-align: center;
+        color: #fbf7f4;
+    }
+    #kcp-superfooter p a {
+        color: #4f4936;
+        font-weight: 500;
+    }
+    #kcp-superfooter p a:hover {
+        color: #ca6b14;
     }
 
 
