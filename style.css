@@ -191,3 +191,109 @@ Tags:
         background-color:#44C1bE;
     }
 
+/* Custom Post Single Page Templates */
+    .single-kcp_application,
+    .single-kcp_service_opp{
+        background-color: #fbf7f4;
+    }
+
+    .single-kcp_application .application-display,
+    .single-kcp_service_opp .service-opp-display{
+        width: 800px;
+        max-width: 100%;
+        margin: auto;
+        background-color: #fff;
+        box-shadow: rgba(79, 73, 54, .3) 0 10px 20px 0;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+
+    .single-kcp_application .application-display h2,
+    .single-kcp_service_opp h2{
+        text-align: center;
+        font-family: "Playfair Display",sans-serif;
+        padding: 10px 0;
+        margin: 0 60px;
+    }
+    .single-kcp_application .application-display .univ {
+        text-align: center;
+    }
+    .single-kcp_application .application-display .univ h3 {
+        display: block;
+        width: 300px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 10px 30px;
+        margin: 0px auto;
+        text-align: center;
+        background-color: rgb(79 73 54);
+        padding: 10px 0;
+    }
+    .single-kcp_application .application-display h3 {
+        font-size: 20px;
+    }
+    .single-kcp_application .application-display h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .single-kcp_application .application-display .email {
+        text-align: center;
+    }
+
+    .single-kcp_application .application-display .status h3,
+    .single-kcp_service_opp .service-opp-display .deadline h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .single-kcp_application .application-display p,
+     {
+        margin-left: 30px;
+    }
+    .single-kcp_application .application-display .email h3,
+    .single-kcp_application .application-display .email p
+    {
+        display: inline;
+        font-size: 16px;
+        margin: 0;
+    }
+    .single-kcp_application .application-display a,
+    .single-kcp_service_opp .service-opp-display a {
+        display: block;
+        text-align:center;
+        font-family: "Playfair Display", sans-serif;
+        width: 350px;
+        background-color: rgb(79 73 54);
+        color: #fff;
+        font-size: 18px;
+        padding: 20px;
+        margin: 30px auto;
+        border-radius: 8px;
+    }
+    .single-kcp_application .application-display a:hover,
+    .single-kcp_service_opp .service-opp-display a:hover {
+        background-color: #44c1be;
+    }
+    .single-kcp_application .application-display .responses {
+        background-color: #fbf7f4;
+        padding: 20px;
+    }
+    .single-kcp_service_opp .service-opp-display {
+        padding: 30px 60px;
+        box-sizing: border-box;
+        margin: 80px auto 160px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .single-kcp_service_opp .service-opp-display {
+            padding: 20px;
+            margin: 0;
+        }
+        .single-kcp_service_opp h2 {
+            margin: 0;
+        }
+        .single-kcp_service_opp .service-opp-display a {
+            padding: 15px;
+            width: 250px;
+        }
+    }
