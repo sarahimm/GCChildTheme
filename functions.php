@@ -26,7 +26,7 @@ add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts');
 add_action('wp_head', 'kcp_superheader');
 function kcp_superheader(){
 ?>
-	<div id="superheader">
+	<div id="kcp_superheader">
 		<div class="links">
 			<a href="/students">Students</a>
 			<a href="/faculty">Faculty</a>
