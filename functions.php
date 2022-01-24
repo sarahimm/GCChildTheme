@@ -55,7 +55,7 @@ function kcp_footer(){
       <h2>Grants</h2>
       <ul>
         <li><a href="/the-grant">Information</a></li>
-        <li><a href="/service-placements">Eligible Service Programs</a></li>
+        <li><a href="/service-organizations">Eligible Service Programs</a></li>
         <li><a href="/apply">Apply</a></li>
       </ul>
   </div>
