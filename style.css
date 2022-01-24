@@ -152,5 +152,42 @@ Tags:
     }
 
 
+/* Form styles */
+    #kcp_app_form h2, #kcp_app_form h3,
+    #kcp_opps_form h2, #kcp_opps_form h3{
+        font-family: "Playfair Display", sans-serif;
+    }
+    #kcp_app_form h3,
+    #kcp_opps_form h3{
+        font-size: 24px;
+        padding: 0;
+        margin: 20px 0 5px 0;
+    }
+    #kcp_app_form input,
+    #kcp_app_form textarea,
+    #kcp_opps_form input,
+    #kcp_opps_form textarea{
+        background-color: #faefdf
+    }
+    #kcp_app_form input:focus,
+    #kcp_app_form textarea:focus,
+    #kcp_opps_form input:focus,
+    #kcp_opps_form textarea:focus{
+        background-color: #94e1de;
+    }
+    #kcp_app_form input[type="submit"],
+    #kcp_opps_form input[type="submit"]{
+        display:block;
+        margin: 40px auto;
+        padding: 10px 30px;
+        font-size: 24px;
+        background-color:#CA6B14;
+        text-transform: uppercase;
+        border: none;
+    }
 
+    #kcp_app_form input[type="submit"]:hover,
+    #kcp_opps_form input[type="submit"]{
+        background-color:#44C1bE;
+    }
 
