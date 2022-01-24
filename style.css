@@ -59,8 +59,38 @@ Tags:
         #site-header .menu-main-nav-container #menu-main-nav li a:hover,
         #site-header .menu-main-nav-container #menu-main-nav li a:active {
             color: #44C1BE;
-        }   
+        }
 
+/* Superheader Styling */
+    .elementor-top-section {
+        z-index: -1;
+    }
+
+    #kcp_superheader {
+        background-color: #CA6B14;
+        padding: 3px 10px;
+    }
+
+    #kcp_superheader .links {
+        position: relative;
+        text-align: right;
+    }
+
+    #kcp_superheader .links a {
+        padding: 0 10px;
+        color: #fff;
+        margin: 0!important;
+        border-left: 1px solid #fbf7f4;
+        border-radius: 2px;
+    }
+    #kcp_superheader .links a:first-child  {
+        border-left: 0;
+        border-right: 1px solid #fbf7f4;
+    }
+
+    #kcp_superheader .links a:hover {
+        border: 1px solid #fbf7f4;
+    }
 
 
 
