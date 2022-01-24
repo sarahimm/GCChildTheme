@@ -173,7 +173,7 @@ Tags:
     #kcp_app_form textarea:focus,
     #kcp_opps_form input:focus,
     #kcp_opps_form textarea:focus{
-        background-color: #94e1de;
+        background-color: #bee6e4;
     }
     #kcp_app_form input[type="submit"],
     #kcp_opps_form input[type="submit"]{
@@ -292,6 +292,8 @@ Tags:
         .single-kcp_service_opp h2 {
             margin: 0;
         }
+        .single-kcp_application .application-display .univ h3,
+        .single-kcp_application .application-display a,
         .single-kcp_service_opp .service-opp-display a {
             padding: 15px;
             width: 250px;
