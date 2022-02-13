@@ -35,13 +35,13 @@ function kcp_superheader(){
 <?php
 };
 
-/* Describe what the code snippet does so you can remember later on */
+
 add_action('wp_footer', 'kcp_footer');
 function kcp_footer(){
 ?>
 <div id="kcp-footer">
   <div class="col col1">
-          <img src="http://35.85.213.9/wp-content/uploads/2022/01/KCstackedplurallogo.png" style="max-width: 200px;">
+          <img src="http://kristaglobalcitizensgrant.org/wp-content/uploads/2022/01/KCstackedplurallogo.png" style="max-width: 200px;">
   </div>
     <div class="col col2">
       <h2>About</h2>
