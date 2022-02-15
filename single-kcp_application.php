@@ -17,7 +17,7 @@ get_header()?>
             <p><?php echo get_post_meta(get_the_ID(), 'Email', true) ?></p><br>
             <h3>Phone:</h3>
             <p><?php echo get_post_meta(get_the_ID(), 'Phone', true) ?></p><br>
-            <h3>Address:</h3>
+            <h3>Address:</h3> <br>
             <p><?php echo get_post_meta(get_the_ID(), 'Address', true) ?></p>
         </div>
        <div class="question">    
