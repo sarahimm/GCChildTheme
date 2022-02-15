@@ -14,9 +14,9 @@ get_header()?>
         </div>
         <div class="email">    
             <h3>Email:</h3>
-            <p><?php echo get_post_meta(get_the_ID(), 'Email', true) ?></p>
+            <p><?php echo get_post_meta(get_the_ID(), 'Email', true) ?></p><br>
             <h3>Phone:</h3>
-            <p><?php echo get_post_meta(get_the_ID(), 'Phone', true) ?></p>
+            <p><?php echo get_post_meta(get_the_ID(), 'Phone', true) ?></p><br>
             <h3>Address:</h3>
             <p><?php echo get_post_meta(get_the_ID(), 'Address', true) ?></p>
         </div>
