@@ -15,31 +15,40 @@ get_header()?>
         <div class="email">    
             <h3>Email:</h3>
             <p><?php echo get_post_meta(get_the_ID(), 'Email', true) ?></p>
+            <h3>Phone:</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Phone', true) ?></p>
+            <h3>Address:</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Address', true) ?></p>
         </div>
-        <div class="status">    
-            <h3><?php echo get_post_meta(get_the_ID(), 'Service Status', true) ?> to a service program</h3>
-        </div>
-        <div class="dates">    
-            <h3>Service dates:</h3>
-            <p><?php echo get_post_meta(get_the_ID(), 'Start date', true) ?> through 
-               <?php echo get_post_meta(get_the_ID(), 'End date', true) ?> </p>
-        </div>
-        <div class="question">    
-            <h3>Where do you hope to serve?</h3>
-            <p><?php echo get_post_meta(get_the_ID(), 'Where do you hope to serve?', true) ?></p>
-        </div>
-        <div class="question">    
-            <h3>Why do you want to serve?</h3>
-            <p><?php echo get_post_meta(get_the_ID(), 'Why do you want to serve?', true) ?></p>
-        </div>
-        <div class="question">    
-            <h3>What do you hope to learn from serving?</h3>
-            <p><?php echo get_post_meta(get_the_ID(), 'What do you hope to learn from serving?', true) ?></p>
-        </div>
-        <div class="question">    
+       <div class="question">    
             <h3>To which agencies or programs have you applied and/or been accepted?</h3>
-            <p><?php echo get_post_meta(get_the_ID(), "To which agencies or programs have you applied and/or been accepted?", true) ?></p>
+            <p><?php echo get_post_meta(get_the_ID(), 'Agencies', true) ?></p>
         </div>
+        <div class="question">    
+            <h3>If you have been accepted, how long is your commitment to service?</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Length',true)?></p>
+        </div>
+        <div class="question">    
+            <h3>If you have been accepted, at which potential location(s) will you serve?</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Where', true) ?></p>
+        </div>
+        <div class="question">    
+            <h3>In what extracurricular activities and hobbies are you involved?</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Activities', true) ?></p>
+        </div>
+        <div class="question">    
+            <h3>Why do you want to serve? What motivates your choice for post-graduate service?</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Why', true) ?></p>
+        </div>
+        <div class="question">    
+            <h3>Describe an earlier volunteer service experience. What did you learn about others and yourself in this opportunity?</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Experience', true) ?></p>
+        </div>
+        <div class="question">    
+            <h3>Post-graduate service often presents many new challenges. Describe a challenge you've experienced and what steps you took to meet this challenge.</h3>
+            <p><?php echo get_post_meta(get_the_ID(), 'Challenge', true) ?></p>
+        </div>
+        
     </div>
     <?php $email = get_post_meta(get_the_ID(), 'Email', true);
     echo "<a href='mailto:".$email."'>Send a message to this applicant</a>"?>
