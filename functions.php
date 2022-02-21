@@ -60,13 +60,29 @@ function kcp_footer(){
       </ul>
   </div>
     <div class="col col4">
-      <h2>Contact</h2>
+      <h2>Contact - Gonzaga</h2>
       <ul>
-        <li><a href="">1234 Address Here<br>Spokane, WA 99251</a></li>
-        <li><a href="">(###)###-####</a></li>
-        <li><a href="">example@example.com</a></li>
-        <li><a href="">@instagram-handle</a></li>
-      </ul>          
+        <li> <a href="mailto:armstrongj@gonzaga.edu">armstrongj@gonzaga.edu</a></li>
+	<li>
+             	Gonzaga University Krista Colleagues Grant Program <br>
+		ATTN: Josh Armstrong <br>
+		502 East Boone Avenue <br>
+		Spokane, WA 99258-0102 <br>
+	</li> 
+      </ul>
+  </div>
+  <div class="col col4">
+      <h2>Contact - Whitworth</h2>
+      <ul>
+        <li> <a href="mailto:kjones@whitworth.edu">kjones@whitworth.edu</a></li>
+	<li>
+        	Whitworth University Krista Colleagues Grant Program <br>
+		ATTN: Kent Jones <br>
+		Whitworth University <br>
+		300 W. Hawthorne Rd <br>
+		Spokane, WA 99251
+	</li> 
+      </ul>
   </div>
 </div>
 <div id="kcp-superfooter">
